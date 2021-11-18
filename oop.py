@@ -55,13 +55,13 @@ print('All customers in a list:', customers)
 # del customers[2].name 
 # print('All customers after del:', customers) # AttributeError: 'Customer' object has no attribute '_name'
 
-print('LOG from User:')
+print('Log from Customer(User):')
 customers[0].log()
 
 # print('LOG 2 from User:', customers[2].log())
 
 users = [Customer('Petras', 'Bronze'), Customer('Tomas', 'Silver'), Teacher()]
 
-print('Users:')
+print('Log from Users:')
 for user in users:
     user.log()
