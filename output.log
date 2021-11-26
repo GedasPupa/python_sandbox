@@ -1,0 +1,16 @@
+DEBUG:root:debug-level message
+INFO:root:info-level message
+WARNING:root:warning-level message
+ERROR:root:error-level message
+CRITICAL:root:critical-level message
+INFO:root:Here is a variable 'string' and an int: 10.
+INFO:root:This is info-level message.
+WARNING:root:This is warning-level message.
+2021-11-26 06:47:04,965: INFO: main_1 / Line: 27 This is info-level message.
+2021-11-26 06:47:04,965: WARNING: main_1 / Line: 28 This is warning-level message.
+2021/11/26 06:54:16 AM: INFO: main_1 / Line: 31 This is info-level message.
+2021/11/26 06:54:16 AM: WARNING: main_1 / Line: 32 This is warning-level message.
+2021/11/26 06:54:16 AM: DEBUG: anotherFunction / Line: 20 This is debug-level message.
+User:joe@example.com 2021/11/26 07:01:29 AM: INFO: main_1 Line: 35 / This is info-level message.
+User:joe@example.com 2021/11/26 07:01:29 AM: WARNING: main_1 Line: 36 / This is warning-level message.
+User:joe@example.com 2021/11/26 07:01:29 AM: DEBUG: anotherFunction Line: 24 / This is debug-level message.
